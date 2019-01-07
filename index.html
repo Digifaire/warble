@@ -6,6 +6,6 @@ Algorithmia.client("simh7HIKEhvyjU7rZ5jLyrzoXtq1")
     .algo("SummarAI/Summarizer/0.1.3")
     .pipe(input)
     .then(function(output) {
-        console.log(output);
+        document.write(output.result);
     });
 </script>
